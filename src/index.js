@@ -32,4 +32,4 @@ function render() {
 };
 
 const store = createStore(candyReducer)
-store.dispatch({type: 's'})
+store.dispatch({type: 's', candy: 'cccc'})
