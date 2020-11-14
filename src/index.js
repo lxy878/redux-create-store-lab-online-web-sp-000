@@ -31,5 +31,5 @@ function render() {
   }
 };
 
-const store = createStore(render)
+let store = createStore(render)
 store.dispatch({type: 's'})
