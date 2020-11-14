@@ -10,7 +10,7 @@ function createStore(reducer){
     return state
   }
 
-  return {dispatch, state}
+  return {dispatch, getState}
 }
 
 function candyReducer(state = [], action) {
