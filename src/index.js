@@ -31,5 +31,6 @@ function render() {
   }
 };
 
-const store = createStore(render)
+const store = createStore(candyReducer)
+
 store.dispatch({type: 's'})
